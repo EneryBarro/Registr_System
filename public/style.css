@@ -1,0 +1,75 @@
+body {
+    justify-items: center;
+    display: block;
+}
+
+input, button {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-size: 20px;
+    background: #ddd;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+label {
+    width: 30%;
+    margin-bottom: 10px;
+    font-size: 20px
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+#game {
+    align-self: center;
+}
+
+#registration {
+    margin-top: 5%;
+}
+
+#login {
+    margin-top: 5%;
+}
+
+form {
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+form#sign_in_form {
+    box-shadow: 0 0 black;
+}
+
+form#sign_in_form input {
+    box-shadow: 2px 2px 5px black;
+}
+
+form#sign_up_form {
+    box-shadow: 0 0 black;
+}
+
+form#sign_up_form input {
+    box-shadow: 2px 2px 5px black;
+}
+
+#sign_in_form{
+    border: none;
+}
+
+#sign_up_form{
+    border: none;
+}
